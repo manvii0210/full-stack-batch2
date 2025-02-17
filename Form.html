@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            background-color: darkgreen;
+            color: white;
+            text-align: center;
+        }
+        option{
+            color: indianred;
+        }
+        tr,td{
+            padding: 4px;
+            color:blue;
+            font-size: 22px;
+        }
+        .format
+        {
+            width: 200px;
+            border: 1px;
+            padding: 3px;
+        }
+        body{
+            background-color:pink;
+
+        }
+    </style>
+</head>
+<body>
+    <h2>Information Collection</h2>
+    <hr>
+    <form action="">
+         <table>
+            <tr>
+                <td>Enter Employee ID</td>
+                <td><input type="text/" class="format"></td>
+            </tr>
+            <tr>
+            <td>Enter Gender</td>
+            <td><input type="radio" name="gen">male
+                <input type="radio" name="gen">female
+                <input type="radio" name="gen">other
+            </td>
+           </tr>
+           <tr>
+            <td>select department</td>
+            <td>
+                <select>
+                    <option value="">--select--</option>
+                    <option value="">Hr</option>
+                    <option value="">Programs</option>
+                    <option value="">Developer</option>
+                    <option value="">DBA</option>
+                    <option value="">BDT</option>
+                    <option value="">Trainer</option>
+                    <option value="">Data Analytics</option>
+                    
+                </select>
+            </td>
+           </tr>
+           <tr>
+            <td>Date of joining</td>
+            <td><input type="date"></td>
+           </tr>
+           <tr>
+           <td>Responsibilities</td>
+           <td>
+            <input type="checkbox">Auditing
+            <input type="checkbox">Collection
+            <input type="checkbox">Interview
+           </td>
+           </tr>
+           <tr>
+            <td><input type="button">Submit</td>
+            <td><input type="button">Reset</td>
+           </tr>
+         </table>
+    </form>
+    
+</body>
+</html>

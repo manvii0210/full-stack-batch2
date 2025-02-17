@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Text with Borders</title>
+    <style>
+        .container {
+            display:flex;
+            gap: 20px;
+        }
+        .vertical-text {
+            writing-mode: vertical-rl;
+            text-orientation: inherit;
+            border: 2px solid red;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+        }
+        .rounded {
+            border-radius: 20px 0 0 20px;
+         }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="vertical-text rounded">INDIA DEVELOPMENT SYSTEM</div>
+        <div class="vertical-text rounded">INDIA DEVELOPMENT SYSTEM</div>
+        <div class="vertical-text rounded">INDIA DEVELOPMENT SYSTEM</div>
+        <div class="vertical-text rounded">INDIA DEVELOPMENT SYSTEM</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Gupter:wght@400;500;700&family=Kalnia+Glaze:wght@100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        #parent
+        {
+            height: 400px;
+            width: 400px;
+            background-color:rgb(253, 219, 253);
+            padding: 20px;
+            margin: 40px auto;
+            box-shadow:0px 0px 15px black;
+        }
+        body{
+            background-image:url(img/em.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.8;
+        }
+        span
+        {
+            font-size: 40px;
+            text-align: center;
+            display: block;
+            font-family: "Gupter", serif;
+        }
+        label
+        {
+            color: green;
+            font-family: "Gupter", serif;
+            font-size: 20px;
+            
+        }
+        .formate
+        {
+            width: 95%;
+            padding: 5px;
+            border: 1px solid tomato;
+            margin-bottom: 5px;
+            margin-top: 4px;
+        }
+        .btn
+        {
+            width: 98%;
+            background-color: lightcoral;
+            color:black;
+            border: none;
+            padding: 5px;
+            cursor: pointer;
+            font-size: 17px;
+            font-family: "Gupter", serif;
+            margin-top: 10px;
+        }
+        .btn:hover
+        {
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+            transition: 2s;
+        }
+    </style>
+</head>
+<body>
+   
+   <div id="parent">
+    <span>FeedBack</span>
+      <hr>
+      <form>
+        <label>Enter Name</label>
+        <input type="text" class="formate"/>
+        <label>Enter Email ID</label>
+        <input type="email" class="formate" required/>
+        <label>Enter Contact</label>
+        <input type="number" class="formate" required/>
+        <label>Enter FeedBack</label>
+       <textarea class="formate">
+
+       </textarea>
+       <input type="submit" class="btn"/>
+      </form>
+   </div>
+</body>
+</html>

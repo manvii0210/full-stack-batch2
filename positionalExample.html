@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1
+        {
+            background-color:plum;
+            height: 200px;
+            width: 200px;
+            float: left;
+            top: 100px;
+            position: relative;
+            left: 250px;
+        }
+        .box1:hover
+        {
+            background-color: white;
+            transition: 2s;
+            
+        }
+        .box2
+        {
+            background-color: skyblue;
+            height: 200px;
+            width: 200px;
+            float:left;
+            position: relative;
+            left: 200px;
+            z-index: 1;
+
+        }
+        .box2:hover
+        {
+            width: 0px;
+            height: 0px;
+            transition: 4s;
+        }
+        .box3
+        {
+            background-color:yellowgreen;
+            height: 200px;
+            width: 200px;
+            float: left;
+            position: relative;
+            left: 150px;
+            top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</body>
+</html>

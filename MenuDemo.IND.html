@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent
+          {
+            height: 500px;
+            width: 100%;
+            background-color: lightgreen;
+        }
+        #header
+        {
+            height: 40px;
+            width:100%;
+            background-color: black; 
+            text-align: center;
+            color: aliceblue;
+            font-size: 22px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            line-height: 35px;
+
+        }
+        #menu
+        {
+            height: 40px;
+            width: 100%;
+            background-color:rgb(0, 255, 123);
+
+        }
+        #leftpane
+        {
+            height: 380px;
+            width: 50%;
+            background-color: rgb(37, 37, 158);
+            float: left;
+            
+        }
+        #rightpane
+        {
+            height: 380px;
+            width: 50%; 
+            background-color: rgb(114, 107, 107);  
+            float: right;
+             
+        }
+        #footer1
+        {
+            height: 40px;
+            width: 100%;
+            background-color: rgb(116, 186, 244);
+            display: flex;
+        }
+        tr,td{
+            background-color: coral;
+            color: white;
+           
+            text-align: center;
+            width: 200px;
+            cursor: pointer;
+            height: 34px;
+
+        }
+        td:hover{
+            background-color: black;
+            color: white;
+            transition: 2s;
+        }
+       
+  </style>
+</head>
+<body>
+     <div id="parent">
+        <div id="header">Indian Academy</div>
+        <div id="menu">
+            <table>
+                <tr>
+                 <td>Home</td>
+                 <td>Registration</td>
+                 <td>Login</td>
+                 <td>Enquiry</td>
+                 <td>Feedback</td>
+                 <td>Contact us</td>
+                </tr>
+            </table>
+        </div>
+        <div id="leftpane"></div>
+        <div id="rightpane"></div>
+        <div id="footer1"></div>
+    </div>
+    
+
+</body>
+</html>

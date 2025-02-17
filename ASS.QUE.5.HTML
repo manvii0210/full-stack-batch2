@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+                text-align: center;
+                background-color: aqua;
+                color: black;
+        }
+        .box1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: yellow;
+            height: 200px;
+            width: 200px;
+            float: left;
+            position: relative;
+            top: 350px;
+            left: 250px;
+            
+        }
+        .box1:hover{
+            background-color: white;
+            transition: 1s;
+        }
+        .box2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: coral;
+            height: 200px;
+            width: 200px;
+            float: left;
+            position: relative;
+            left: 350px;
+            top: 50px;
+            z-index: 1;
+
+        }
+        .box2:hover{
+            background-color: white;
+            transition: 1s;
+        }
+        .box3{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: blue;
+            height: 200px;
+            width: 200px;
+            float: left;
+            position: relative;
+            top: 200px;
+
+        }
+        .box3:hover{
+            background-color: white;
+            transition: 1s;
+        }
+    </style>
+</head>
+<body>
+    <h2>Cube Dissolve Activity</h2>
+    <hr>
+    <div class="box1">Yellow Cube</div>
+    <div class="box2">Blue Cube</div>
+    <div class="box3">Corel Cube</div>
+</body>
+</html>
